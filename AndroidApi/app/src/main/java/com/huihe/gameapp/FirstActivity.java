@@ -1,17 +1,13 @@
 package com.huihe.gameapp;
 
 import android.annotation.TargetApi;
-import android.content.DialogInterface;
+import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
 
 import com.hjq.permissions.OnPermissionCallback;
 import com.hjq.permissions.OnPermissionPageCallback;
@@ -20,7 +16,7 @@ import com.hjq.permissions.XXPermissions;
 
 import java.util.List;
 
-public class FirstActivity extends AppCompatActivity   {
+public class FirstActivity extends Activity {
 
 
     @Override
