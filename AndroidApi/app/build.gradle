@@ -41,7 +41,6 @@ dependencies {
     implementation files('libs\\buglyagent.jar')
     implementation files('libs\\classes.jar')
     implementation files('libs\\tbs_sdk_thirdapp_v3.6.0.1310_43612_sharewithdownload_withoutGame_obfs_20180706_163319.jar')
-    implementation 'com.github.getActivity:XXPermissions:13.5'
 }
 
 task buildJar(dependsOn: ['build'], type: Jar) {
