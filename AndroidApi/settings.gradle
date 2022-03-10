@@ -1,0 +1,2 @@
+include ':app', ':gamelib'
+rootProject.name='GameApp'
